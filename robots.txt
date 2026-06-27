@@ -1,0 +1,19 @@
+# GreatPoint Travels & Tour - Robots.txt
+
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /.git/
+Disallow: /.env
+
+Sitemap: https://greatpointtravels.com/sitemap.xml
+
+# Google
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0
+
+# Bing
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 0
